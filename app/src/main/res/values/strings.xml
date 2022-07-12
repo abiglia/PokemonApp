@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Pokemon App</string>
+    <string name="text_welcome">Hola, Bienevenido a la App pokemon eevee, donde podras informarte sobre todas las evoluciones del pokemon eevee, por favor, inicia sesion.</string>
+    <string name="enter_user">Ingrese Su Usuario</string>
+    <string name="enter_password">Ingrese Su Contraseña</string>
+    <string name="log_in">Iniciar Sesion</string>
+
+
 </resources>
