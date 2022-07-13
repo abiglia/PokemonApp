@@ -1,5 +1,6 @@
 package com.example.pokemonapp.activities
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
@@ -29,11 +30,16 @@ class LoginActivity : AppCompatActivity() {
             var passString: String = binding.edtPass.text.toString()
 
             if (user == userString && clave == passString) {
+                sendToMainActivity()
                 Toast.makeText(this, "Inicio De Sesion Exitoso", Toast.LENGTH_SHORT).show()
             }
             else if (userString.isEmpty() || passString.isEmpty()){
                 Toast.makeText(this, "Complete el espacio en blanco", Toast.LENGTH_SHORT).show()
             }else {Toast.makeText(this, "usuario invalido", Toast.LENGTH_SHORT).show()}
         }
+    }
+
+    private fun sendToMainActivity() {
+        startActivity(Intent(this@LoginActivity, MainActivity::class.java))
     }
 }

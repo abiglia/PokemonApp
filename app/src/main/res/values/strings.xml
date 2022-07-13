@@ -4,6 +4,9 @@
     <string name="enter_user">Ingrese Su Usuario</string>
     <string name="enter_password">Ingrese Su Contraseña</string>
     <string name="log_in">Iniciar Sesion</string>
-
+    <string name="navigation_drawer_open">open</string>
+    <string name="navigation_drawer_close">close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>
