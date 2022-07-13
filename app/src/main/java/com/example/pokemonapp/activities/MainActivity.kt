@@ -46,7 +46,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
 
         binding.navView.setNavigationItemSelectedListener(this)
 
-        containerFragment(mainFragment) // con esta funcion pasaremos el fragment que qurremos reemplazar
+        containerFragment(mainFragment) // con esta funcion pasaremos el fragment que quremos reemplazar
     }
 
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
@@ -98,7 +98,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         return super.onOptionsItemSelected(item)
     }
 
-    private fun containerFragment(fragment : Fragment) { // metodo donde le pasaremos el fragmento para reemplarlo por el "containerFragment"
+    private fun containerFragment(fragment : Fragment) { // metodo donde le pasaremos el fragmento para reemplazarlo por el "containerFragment"
         val fragmentManager = supportFragmentManager
         val fragmentTransaction = fragmentManager.beginTransaction()
         fragmentTransaction.replace(R.id.containerFragment, fragment)

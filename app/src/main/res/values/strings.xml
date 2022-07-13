@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Pokemon App</string>
-    <string name="text_welcome">Hola, Bienevenido a la App pokemon eevee, donde podras informarte sobre todas las evoluciones del pokemon eevee, por favor, inicia sesion.</string>
+    <string name="text_welcome">Hola, Bienvenido a la App pokemon eevee, donde podras informarte sobre todas las evoluciones del pokemon eevee, por favor, inicia sesion.</string>
     <string name="enter_user">Ingrese Su Usuario</string>
     <string name="enter_password">Ingrese Su Contraseña</string>
     <string name="log_in">Iniciar Sesion</string>
@@ -9,4 +9,14 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
+    <!-- TODO: String para los textos de pokemos -->
+    <string name="eevee22">Eevee es un Pokémon de tipo normal, suele pesar 6,5 kg y medir unos 0,3 metros, Se caracteriza por ser el Pokémon con más opciones evolutivas, actualmente son 8</string>
+    <string name="flareon">Flareon es un Pokémon de tipo fuego, suele pesar 25,0 kg y medir unos 0,9 metros, Flareon es un Pokémon muy sensible y al conocer gente nueva tiene demasiada timidez, pero al acostumbrarse se volverá un Pokémon muy cariñoso, bueno para hacer compañía.</string>
+    <string name="jolteon">Jolteon es un Pokémon de tipo eléctrico, suele pesar 24,5 kg y medir unos 0,8 metros, Su pelaje le permite captar y almacenar gran cantidad de electricidad estática del ambiente</string>
+    <string name="vaporeon">Vaporeon es un Pokémon de tipo agua, suele pesar 29 kg y medir un 1 metro, Vaporeon es un excelente nadador, capaz de hacerse invisible en el agua, Se volverá tranquilo y maduro</string>
+    <string name="espeon">Espeon es un Pokémon de tipo psíquico, suele pesar 26,5 kg y medir unos 0,9 metros, su inteligencia es su punto fuerte. Un poco incomprendido, pero elegante y formal, sus intuiciones serán su mejor cualidad. Posee un carácter muy racional y justo, pero puede hacerse vanidoso.</string>
+    <string name="umbreon">Umbreon es un Pokémon de tipo siniestro, suele pesar 27 kg y medir un 1 metro, Tiene un carácter arisco, serio y suele andar en solitario. Es un Pokémon estratega y frío a la hora de pensar, típico de un Pokémon de tipo siniestro. Su firmeza también es resaltante.</string>
+    <string name="sylveon">Sylveon es un Pokémon de tipo hada, suele pesar 23,5 kg y medir un 1 metro, es un Pokémon muy amistoso, alegre, dulce y preocupado por los demás. Disfruta mucho de la compañía de otros Pokémon, con los cuales le agrada jugar y llenarlos de felicidad.</string>
+    <string name="glaceon">Glaceon es un Pokémon de tipo hielo, suele pesar 25,9 kg y medir unos 0,8 metros, es muy cariñoso con su entrenador. Cuando se enfada, su carácter noble se convierte en agresivo e hiriente, por lo que muchas veces, después del problema, se arrepiente y tiende a alejarse en solitario para tranquilizarse.</string>
+    <string name="leafeon">Leafeon es un Pokémon de tipo planta, suele pesar 25,5 kg y medir un 1 metro,  Leafeon se siente más identificado con la naturaleza que con el ser humano, por lo que no se dejará tocar por otra persona que no sea su entrenador. Es un poco caprichoso. Pocos Eevee logran evolucionar en Leafeon.</string>
 </resources>

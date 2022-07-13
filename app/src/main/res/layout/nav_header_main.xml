@@ -24,7 +24,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingTop="0dp"
-        android:text="Eevee"
+        android:text="    Eevee"
         android:textColor="@color/black"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
 

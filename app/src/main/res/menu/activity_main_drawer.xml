@@ -3,11 +3,11 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
     <group>
         <item android:id="@+id/nav_item_one"
-            android:icon="@drawable/abc_vector_test"
-            android:title="Informacion de pokemons"/>
+            android:icon="@drawable/ic_book"
+            android:title="Informacion de pokemons" />
 
          <item android:id="@+id/nav_terms_condition"
-            android:icon="@drawable/abc_vector_test"
+            android:icon="@drawable/ic_terms"
             android:title="Terminos y condiciones"/>
 
         <item android:id="@+id/nav_log_out"
