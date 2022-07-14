@@ -46,7 +46,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
 
         binding.navView.setNavigationItemSelectedListener(this)
 
-        containerFragment(mainFragment) //con esta funcion pasaremos el fragment que quremos reemplazar
+        containerFragment(mainFragment)  //con esta funcion pasaremos el fragment que quremos reemplazar
     }
 
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
@@ -62,14 +62,14 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         return true
     }
 
-    private fun goWeb() { //metodo que al clickear nos mande al sitio web elegido
+    private fun goWeb() {  //metodo que al clickear nos mande al sitio web elegido
         val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.pokemon.com/el/pokedex/"))
         startActivity(browserIntent)
     }
 
-    private fun dialogLogOut() { //metodo que nos volvera a la pantalla de login
+    private fun dialogLogOut() {  //metodo que nos volvera a la pantalla de login
 
-        val alertDialog = AlertDialog.Builder(this) //dialogo para que el usuario confirme si quiere cerrar sesion o no
+        val alertDialog = AlertDialog.Builder(this)  //dialogo para que el usuario confirme si quiere cerrar sesion o no
 
         alertDialog.apply {
             //setIcon(R.drawable.ic_hello)
@@ -104,7 +104,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         return super.onOptionsItemSelected(item)
     }
 
-    private fun containerFragment(fragment : Fragment) { // metodo donde le pasaremos el fragmento para reemplazarlo por el "containerFragment"
+    private fun containerFragment(fragment : Fragment) {  //metodo donde le pasaremos el fragmento para reemplazarlo por el "containerFragment"
         val fragmentManager = supportFragmentManager
         val fragmentTransaction = fragmentManager.beginTransaction()
         fragmentTransaction.replace(R.id.containerFragment, fragment)
