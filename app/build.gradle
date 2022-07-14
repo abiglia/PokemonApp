@@ -43,8 +43,8 @@ dependencies {
     implementation 'com.google.android.material:material:1.6.1'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
 
-    implementation 'androidx.drawerlayout:drawerlayout:1.1.1'
-    implementation 'androidx.coordinatorlayout:coordinatorlayout:1.1.0'
+    implementation 'androidx.drawerlayout:drawerlayout:1.1.1'            //implementamos librerias
+    implementation 'androidx.coordinatorlayout:coordinatorlayout:1.1.0'  //implementamos librerias
 
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'

@@ -9,7 +9,7 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
-    <!-- TODO: String para los textos de pokemos -->
+    <!-- TODO: String para los textos de pokemons -->
     <string name="eevee22">Eevee es un Pokémon de tipo normal, suele pesar 6,5 kg y medir unos 0,3 metros, Se caracteriza por ser el Pokémon con más opciones evolutivas, actualmente son 8</string>
     <string name="flareon">Flareon es un Pokémon de tipo fuego, suele pesar 25,0 kg y medir unos 0,9 metros, Flareon es un Pokémon muy sensible y al conocer gente nueva tiene demasiada timidez, pero al acostumbrarse se volverá un Pokémon muy cariñoso, bueno para hacer compañía.</string>
     <string name="jolteon">Jolteon es un Pokémon de tipo eléctrico, suele pesar 24,5 kg y medir unos 0,8 metros, Su pelaje le permite captar y almacenar gran cantidad de electricidad estática del ambiente</string>
@@ -19,4 +19,16 @@
     <string name="sylveon">Sylveon es un Pokémon de tipo hada, suele pesar 23,5 kg y medir un 1 metro, es un Pokémon muy amistoso, alegre, dulce y preocupado por los demás. Disfruta mucho de la compañía de otros Pokémon, con los cuales le agrada jugar y llenarlos de felicidad.</string>
     <string name="glaceon">Glaceon es un Pokémon de tipo hielo, suele pesar 25,9 kg y medir unos 0,8 metros, es muy cariñoso con su entrenador. Cuando se enfada, su carácter noble se convierte en agresivo e hiriente, por lo que muchas veces, después del problema, se arrepiente y tiende a alejarse en solitario para tranquilizarse.</string>
     <string name="leafeon">Leafeon es un Pokémon de tipo planta, suele pesar 25,5 kg y medir un 1 metro,  Leafeon se siente más identificado con la naturaleza que con el ser humano, por lo que no se dejará tocar por otra persona que no sea su entrenador. Es un poco caprichoso. Pocos Eevee logran evolucionar en Leafeon.</string>
+
+    <!-- TODO: String para Terminos Y condiciones -->
+    <string name="terms_condition">POR FAVOR LEA ATENTAMENTE LOS SIGUIENTES TÉRMINOS DE USO ANTES DE UTILIZAR EL SERVICIO
+        1. ¿QUÉ SERVICIOS ESTÁN CUBIERTOS POR ESTOS TÉRMINOS? Estos términos de uso (los «Términos») cubren los siguientes productos y servicios (los «Servicios»), independientemente de la forma en las que se tenga acceso a ellos y/o se utilicen, realizados o bien, puestos a disposición por The Pokémon Company International, Inc. o sus subsidiarias («Pokémon», «nosotros» o «nuestro(a)»):
+        (i) www.Pokemon.com;
+        (ii) Sistema de cuentas de The Pokémon Trainer Club;
+        (iii) Todas las aplicaciones publicadas por Pokémon, ya sea para tabletas, televisiones inteligentes, consolas para videojuegos, plataformas de redes sociales, dispositivos móviles y otras plataformas (las «Aplicaciones»), excepto que la aplicación indique algo diferente.
+        (iv) Juego de Cartas Coleccionables Pokémon Online («JCC Pokémon Online»);
+        (v) Todos los boletines informativos vía correo electrónico publicados o distribuidos por Pokémon; y
+        (vi) Todas las demás funciones interactivas, servicios y comunicaciones proporcionados por Pokémon.
+        2. EL PRESENTE CONTRATO SE CELEBRA ENTRE USTED Y THE POKÉMON COMPANY INTERNATIONAL, INC. Al acceder, descargar o utilizar el Servicio, usted acepta que ha leído, comprendido y está de acuerdo con estos Términos y cualquier código de conducta que pudiéramos proponer ocasionalmente. Al permitir a un menor de edad utilizar el Servicio, también está aceptando que el menor cumpla con los Términos. El Aviso sobre la Privacidad de Pokémon (www.pokemon.com/el/aviso-sobre-la-privacidad/) (el «Aviso sobre la Privacidad") explica la recopilación, uso, transmisión y divulgación de la información personal proporcionada por usted u obtenida de usted. Al aceptar cumplir con estos términos, también acepta que ha leído y comprendido la descripción sobre la recopilación, uso, transmisión y divulgación de su información o datos personales contenida en el Aviso sobre la Privacidad (con las respectivas modificaciones que se le realicen en cualquier momento). Por favor revise el Aviso sobre la Privacidad antes de utilizar el Servicio.
+        Si no acepta estos Términos, no podrá acceder a nuestro Servicio o utilizarlo. Los Términos están sujetos a actualización o cambio en cualquier momento y el uso continuo del Servicio significa que acepta dichas modificaciones.</string>
 </resources>

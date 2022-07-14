@@ -26,7 +26,7 @@ class MainFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
+
         return inflater.inflate(R.layout.fragment_main, container, false)
     }
 
@@ -45,7 +45,7 @@ class MainFragment : Fragment() {
 
    private fun dataInitialize(){
 
-       pokemonArrayList = arrayListOf<PokemonsModels>()
+       pokemonArrayList = arrayListOf<PokemonsModels>() //lista de las imagenes
 
        imageid = arrayOf(
            R.drawable.eevee22,
@@ -59,7 +59,7 @@ class MainFragment : Fragment() {
            R.drawable.leafeon
        )
 
-       infoPokemon = arrayOf(
+       infoPokemon = arrayOf( //lista de los textos
            getString(R.string.eevee22),
            getString(R.string.flareon),
            getString(R.string.jolteon),

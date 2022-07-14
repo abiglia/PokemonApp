@@ -6,6 +6,10 @@
             android:icon="@drawable/ic_book"
             android:title="Informacion de pokemons" />
 
+        <item android:id="@+id/nav_item_web"
+            android:icon="@drawable/ic_pokedex"
+            android:title="Pokedex" />
+
          <item android:id="@+id/nav_terms_condition"
             android:icon="@drawable/ic_terms"
             android:title="Terminos y condiciones"/>

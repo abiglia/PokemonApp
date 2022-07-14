@@ -20,8 +20,8 @@ class MyAdapter(private val newsList : ArrayList<PokemonsModels>) : RecyclerView
 
     override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
         val currentItem = newsList[position]
-        holder.imagePokemon.setImageResource(currentItem.titleimage)
-        holder.txtInfoPokemon.text = currentItem.infoPokemon
+        holder.imagePokemon.setImageResource(currentItem.titleimage) //con esto setearemos la imagen
+        holder.txtInfoPokemon.text = currentItem.infoPokemon //con esto setearemos el nombre
     }
 
     override fun getItemCount(): Int {
