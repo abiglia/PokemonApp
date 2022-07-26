@@ -11,6 +11,12 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.pokemonapp.R
 import com.example.pokemonapp.activities.models.PokemonsModels
 import com.example.pokemonapp.databinding.FragmentMainBinding
+import com.example.pokemonapp.services.ApiServices
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
+import retrofit2.Retrofit
+import retrofit2.converter.gson.GsonConverterFactory
 
 class MainFragment : Fragment() {
 
@@ -35,12 +41,37 @@ class MainFragment : Fragment() {
 
         binding = FragmentMainBinding.inflate(inflater, container, false)
 
+        getRetrofit()
 
-        
+        callService()
 
 
         return binding.root
 
+    }
+
+    private fun getRetrofit():Retrofit{
+        return Retrofit.Builder()
+            .baseUrl("https://raw.githubusercontent.com/Biuni/PokemonGO-Pokedex/master/")
+            .addConverterFactory(GsonConverterFactory.create())
+            .build()
+    }
+
+    private fun callService() {
+        CoroutineScope(Dispatchers.IO).launch {
+            val call = getRetrofit().create(ApiServices::class.java).getPokemon()
+            val pokemon = call.body()
+            activity?.runOnUiThread {
+                if (call.isSuccessful) {
+                    //val images: List<String> = puppies?.image ?: emptyList()
+                    //dogImages.clear()
+                    //dogImages.addAll(images)
+                    //adapter.notifyDataSetChanged()
+                } else {
+                    //showError()
+                }
+            }
+        }
     }
 
 
