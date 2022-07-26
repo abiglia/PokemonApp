@@ -16,6 +16,7 @@ import com.example.pokemonapp.R
 import com.example.pokemonapp.activities.fragments.MainFragment
 import com.example.pokemonapp.activities.fragments.TermsConditionFragment
 import com.example.pokemonapp.databinding.ActivityMainBinding
+import com.example.pokemonapp.fragments.WebFragment
 import com.google.android.material.navigation.NavigationView
 
 class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
@@ -24,6 +25,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
     private lateinit var binding: ActivityMainBinding
     private lateinit var mainFragment : MainFragment
     private lateinit var termsConditionFragment: TermsConditionFragment
+    private lateinit var webFragment : WebFragment
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -35,6 +37,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         val toolbar: Toolbar = findViewById(R.id.toolbar_main)
         setSupportActionBar(toolbar)
 
+        webFragment = WebFragment()
         mainFragment = MainFragment()
         termsConditionFragment = TermsConditionFragment()
 
@@ -53,7 +56,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
 
         when (item.itemId) { //elegiremos en el panel las opciones
             R.id.nav_item_one -> containerFragment(mainFragment)
-            R.id.nav_item_web -> goWeb()
+            R.id.nav_item_web -> containerFragment(webFragment)
             R.id.nav_terms_condition -> containerFragment(termsConditionFragment)
             R.id.nav_log_out -> dialogLogOut()
         }
