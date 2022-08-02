@@ -3,9 +3,10 @@ package com.example.pokemonapp.models
 import com.example.pokemonapp.activities.models.PokemonsModels
 import com.google.gson.annotations.SerializedName
 import java.util.ArrayList
+import kotlin.collections.ArrayList
 
-class ListPokemonModels {
+class PokemonModels {
 
-    @SerializedName("pokemon") var pokemon :List<PokemonModel> = emptyList()
+    @SerializedName("pokemon") var pokemon :ArrayList<PokemonModel>? = null
 
 }
