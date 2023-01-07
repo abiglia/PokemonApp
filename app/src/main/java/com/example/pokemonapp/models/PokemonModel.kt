@@ -32,7 +32,7 @@ class PokemonModel {
 
     @SerializedName("weight")
     @Expose
-    val wieght: String? = null
+    val weight: String? = null
 
     @SerializedName("candy")
     @Expose
